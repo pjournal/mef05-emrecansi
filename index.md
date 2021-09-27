@@ -8,16 +8,19 @@ Please find the links below.
 ### Works and Researches
 
 ```markdown
-###Late of 2021
-1. [About Me](url)
-2. [R Programming and Transfer Pricing](url)
+#Late of 2021
 
-**Bold** and _Italic_ and `Code` text
+1. [About Me](...)
+
+2. [R Programming and Transfer Pricing](...)
+
+3.... 
+
 
 ```
 
 For more details about me, see [Linkedn](https://www.linkedin.com/in/emrecansigirci/).
 
-### Contact
+### Contact 
 
 email:esigirci@outlook.com
