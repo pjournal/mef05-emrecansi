@@ -1,0 +1,60 @@
+---
+title: "About Me and Week-1 Readings/Videos"
+author: "Emre"
+date: "10/06/2021"
+output: html_document
+---
+---
+
+# About me
+
+I graduated from Boğaziçi University [Management](https://mgmt.boun.edu.tr/) at the begining of 2019. After my graduation I started to work in Audit and Tax area. Now I am a Transfer Pricing analyst. I am interested in Data since I had to handle different clients' data. I started to improve myself in different tools such as SQL.
+
+I would like to improve myself in Data Analytics. Nowadays it is almost impossible making good research and draw a conclusion without big data. Data analytics is the core of almost everything and if we analyze enough we can obtain the accuracy of every theory.
+
+My main aim is to become a data scientist who can easily handle with every case.
+
+[my linkedn](https://www.linkedin.com/in/emrecansigirci/)
+
+Here are some links and readings and contents about R programming, 
+
+#R vs SQL
+
+This article is about comparison between R and SQL for data analysis The writer is Jordan Pack and he compares the strengths and weaknesses of both languages. Writer compares these two programs from different approach. He claims SQL is perfect for data that need to be transformed while R is better for Doing analysis locally, and wanting  to flexibly express your analytical train of thought.
+
+-SQL’s 3 biggest strengths (as I see them) are performance, ease of use and scalability.
+-R is more easier than SQL when it comes to DATA manupulation to achieve the same result. 
+
+[SQL vs R. Which to use for data analysis?](https://dataform.co/blog/sql-vs-r)
+
+#R vs Python
+
+In this video, the content creator compares two languages in a ten minutes and basically. For example while R can be more easy in visualization Python can be embedded in web-application.
+
+[R vs Python | Which is Better for Data Analysis?](https://www.youtube.com/watch?v=1gdKC5O0Pwc)
+
+
+#{runway}: An R Package to Visualize Prediction Model Performance
+
+This video shows  the importance of exploratory data analysis as well as data visualization techniques for summarizing financial data and to perform grouping and calculate descriptive statistics at a portfolio level using functions from the dplyr package.
+
+
+#10 Interesting Things in R
+
+This article is about what R can do interesting. 
+
+1. You can write reproducible Word or Powerpoint documents from R markdown
+2. You can build and host interactive web apps in just a few lines of code
+3. You can host your web apps in one more line of R code
+4. You can connect to almost any database under the sun and pull data with dplyr/dbplyr
+5. You can use the same dplyr grammar locally or on data on multiple different data stores
+6. You can fit deep learning models with keras and Tensorflow
+7. You can build APIs and serve them from R
+8. You can make video game interfaces with R
+9. You can analyze data using Spark clusters right from R
+10.You can build and learn R interactively in R
+
+
+[10 things R can do that might surprise you](https://simplystatistics.org/2019/03/13/10-things-r-can-do-that-might-surprise-you/)
+
+
