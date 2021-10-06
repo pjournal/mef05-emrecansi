@@ -1,37 +1,28 @@
-#### Welcome to Emre's page
+## Welcome to emre's page
 
-This will be a page to show different researches about R Programming and me for BDA503 for now.
 
-### Week-1
-
-#### Assignment 1
-
-[Week-1 RMarkdown Assignment](...)
-
+This will be a page to show different researches about R Programming.
 
 Please find the links below.
 
-
-### Other Works and Researches
+### Works and Researches
 
 ```markdown
 #Late of 2021
 
-1. [...](...)
+1. [About Me](RMarkDown_Week1)
 
-2. [...](...)
 
-3.... 
+
+2. [R Programming and Transfer Pricing](...)
+
+3....
 
 
 ```
 
 For more details about me, see [Linkedn](https://www.linkedin.com/in/emrecansigirci/).
 
-### Contact 
+### Contact
 
 email:esigirci@outlook.com
-
-### Inspired by
-link for BDA503 [Homepage](https://mef-bda503.github.io/)
-
