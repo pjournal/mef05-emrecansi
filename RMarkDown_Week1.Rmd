@@ -20,10 +20,10 @@ Here are some links and readings and contents about R programming,
 
 #R vs SQL
 
-This article is about comparison between R and SQL for data analysis The writer is Jordan Pack and he compares the strengths and weaknesses of both languages. Writer compares these two programs from different approach. He claims SQL is perfect for data that need to be transformed while R is better for Doing analysis locally, and wanting  to flexibly express your analytical train of thought.
+This article is about comparison between R and SQL for data analysis The writer is Jordan Pack and he compares the strengths and weaknesses of both languages. Writer compares these two programs from different approach. He claims SQL is perfect for data that need to be transformed while R is better for Doing analysis locally, and wanting  to flexibly express your analytically train of thought.
 
 -SQL’s 3 biggest strengths (as I see them) are performance, ease of use and scalability.
--R is more easier than SQL when it comes to DATA manupulation to achieve the same result. 
+-R is more easier than SQL when it comes to DATA manipulation to achieve the same result. 
 
 [SQL vs R. Which to use for data analysis?](https://dataform.co/blog/sql-vs-r)
 
@@ -38,6 +38,7 @@ In this video, the content creator compares two languages in a ten minutes and b
 
 This video shows  the importance of exploratory data analysis as well as data visualization techniques for summarizing financial data and to perform grouping and calculate descriptive statistics at a portfolio level using functions from the dplyr package.
 
+[runway}: An R Package to Visualize Prediction Model Performance](https://www.youtube.com/watch?v=KeYpCeDJxQM)
 
 #10 Interesting Things in R
 
