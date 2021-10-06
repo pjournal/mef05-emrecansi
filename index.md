@@ -1,11 +1,18 @@
 ## Welcome to emre's page
 
-
 This will be a page to show different researches about R Programming.
 
 Please find the links below.
 
-1. [About Me](RMarkDown_Week1.html)
+##Week-1
+
+1. [About Me - Week 1](RMarkDown_Week1.html)
+
+
+##Week-3
+
+
+
 
 ### Works and Researches
 
