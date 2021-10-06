@@ -5,18 +5,11 @@ This will be a page to show different researches about R Programming.
 
 Please find the links below.
 
+1. [About Me](RMarkDown_Week1.html)
+
 ### Works and Researches
 
 ```markdown
-#Late of 2021
-
-1. [About Me](RMarkDown_Week1.html)
-
-
-
-2. [R Programming and Transfer Pricing](...)
-
-3....
 
 
 ```
