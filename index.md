@@ -14,12 +14,7 @@ Please find the links below.
 1. [Izmir Fishmarket - Week 5](FishMarket.html)
 
 
-### Works and Researches
 
-```markdown
-
-
-```
 
 For more details about me, see [Linkedn](https://www.linkedin.com/in/emrecansigirci/).
 
