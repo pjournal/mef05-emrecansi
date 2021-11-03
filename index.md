@@ -13,7 +13,9 @@ Please find the links below.
 
 1. [Izmir Fishmarket - Week 5](FishMarket.html)
 
+###Week-7
 
+1. [netflix Work](netflix_hmw.html)
 
 
 For more details about me, see [Linkedn](https://www.linkedin.com/in/emrecansigirci/).
