@@ -15,7 +15,7 @@ Please find the links below.
 
 ###Week-7
 
-1. [netflix Work](netflix_hmw.html)
+1. [Netflix Work](netflix_hmw.html)
 
 
 For more details about me, see [Linkedn](https://www.linkedin.com/in/emrecansigirci/).
