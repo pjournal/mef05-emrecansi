@@ -19,7 +19,7 @@ link for BDA503 [Homepage](https://mef-bda503.github.io/)
 
 [Netflix Work](netflix_hmw.html)
 
-### Final Project (https://pjournal.github.io/mef05g-rninjas/stackover_final.html)
+### [Final Project] (https://pjournal.github.io/mef05g-rninjas/stackover_final.html)
 
 -------------------------------------------------------
 
