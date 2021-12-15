@@ -2,7 +2,10 @@
 
 This will be a page to show different researches about R Programming.
 
-Please find the links below.
+
+Please find the page and links for lecture below.
+
+link for BDA503 [Homepage](https://mef-bda503.github.io/)
 
 ### Week-1
 
@@ -17,10 +20,14 @@ Please find the links below.
 
 1. [Netflix Work](netflix_hmw.html)
 
+### Final Project
+
+-------------------------------------------------------
+
 
 For more details about me, see [Linkedn](https://www.linkedin.com/in/emrecansigirci/).
 
 ### Contact
 
 email:esigirci@outlook.com
-link for BDA503 [Homepage](https://mef-bda503.github.io/)
+
