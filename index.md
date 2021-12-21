@@ -21,7 +21,7 @@ link for BDA503 [Homepage](https://mef-bda503.github.io/)
 
 ### Final Project
 
-[StackOverflow](https://pjournal.github.io/mef05g-rninjas/stackover_final.html) or (Salary_Final.html)
+[StackOverflow](https://pjournal.github.io/mef05g-rninjas/stackover_final.html) or [StackOverflow](Salary_Final.html)
 
 
 
