@@ -22,8 +22,6 @@ link for BDA503 [Homepage](https://mef-bda503.github.io/)
  
 Izmir Fishmarket - [As a Second Project and Shiny](https://mef05g-rninjas.shinyapps.io/Fish_Price/)
  
- https://mef05g-rninjas.shinyapps.io/Fish_Price/
- 
 ### Final Project
 
 [StackOverflow](https://pjournal.github.io/mef05g-rninjas/stackover_final.html) or [Here](Salary_Final.html)
