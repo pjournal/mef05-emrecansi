@@ -25,7 +25,9 @@ Izmir Fishmarket - [As a Second Project and Shiny](https://mef05g-rninjas.shinya
  
 ### Final Project
 
-[StackOverflow](https://pjournal.github.io/mef05g-rninjas/stackover_final.html) or [Here](Salary_Final.html)
+[StackOverflow](https://pjournal.github.io/mef05g-rninjas/stackover_final.html) 
+
+In our project my part is [Here](Salary_Final.html)
 
 Our Shiny App is [here](https://mef05g-rninjas.shinyapps.io/stack_overflow_shinny/)
 
