@@ -18,6 +18,7 @@ link for BDA503 [Homepage](https://mef-bda503.github.io/)
 
 [Netflix Work](netflix_hmw.html)
 
+
 ## Group Projects
  
 Izmir Fishmarket - [As a Second Project and Shiny](https://mef05g-rninjas.shinyapps.io/Fish_Price/)
