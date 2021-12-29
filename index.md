@@ -20,7 +20,7 @@ link for BDA503 [Homepage](https://mef-bda503.github.io/)
 
 ## Group Projects
  
-[Izmir Fishmarket - As 2. Project and Shiny](https://mef05g-rninjas.shinyapps.io/Fish_Price/)
+Izmir Fishmarket - [As a Second Project and Shiny](https://mef05g-rninjas.shinyapps.io/Fish_Price/)
  
  https://mef05g-rninjas.shinyapps.io/Fish_Price/
  
