@@ -1,0 +1,122 @@
+---
+title: "netflix_hmw"
+author: "EmreCanSi"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: '2'
+    df_print: paged
+    code_folding: hide
+  html_notebook:
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+
+
+```{r, include = FALSE}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+```
+
+## READING DATA
+```{r}
+netflixraw <- read_csv("https://github.com/ygterl/EDA-Netflix-2020-in-R/raw/master/netflix_titles.csv")
+
+```
+
+
+## Understanding DATA
+Then we can review the data with following codes:glimpse and summary
+
+```{r}
+library(dplyr)
+glimpse(netflixraw)
+
+```
+
+
+```{r}
+summary(netflixraw)
+```
+```{r}
+netflix <- netflixraw %>% select(show_id,type,title,director,cast,rating,country,release_year,rating,duration,listed_in)
+```
+
+
+
+```{r}
+netflix <- distinct(netflix, title, country, type, release_year, .keep_all = TRUE)
+
+summary(netflix)
+```
+
+in here we seperate values with comma and accept them as different raws.
+
+
+```{r}
+netflixallcountry<-netflix %>% 
+    mutate(country = strsplit(as.character(country), ", ")) %>% 
+    unnest(country)
+
+netflixallcountry1<-netflixallcountry %>% group_by(country) %>% summarise(country_number = n())
+
+netflixallcountry2<-netflixallcountry1[order(netflixallcountry1$country_number),,decreasing=TRUE]
+
+netflixalllisted_in<-netflix %>% 
+    mutate(listed_in = strsplit(as.character(listed_in), ", ")) %>% 
+    unnest(listed_in)
+
+netflixalllisted_in1<-netflixalllisted_in %>% group_by(listed_in) %>% summarise(listed_in_number = n())
+
+netflixalllisted_in2<-netflixalllisted_in1[order(netflixalllisted_in1$listed_in),,decreasing=TRUE]
+
+netflixalllisted_in1 <- filter(netflixalllisted_in2, listed_in_number>200)
+```
+
+Most created type of listed_in is below:
+
+```{r}
+library(dplyr)
+library(ggplot2)
+
+
+  ggplot(netflixalllisted_in1)+geom_point(aes(x = netflixalllisted_in1$listed_in, y = netflixalllisted_in1$listed_in_number, color=as.character(listed_in)))
+
+
+```
+While international movies is top of the list, dramas, comedies and international TV shows are follows the international TV shows.
+
+As you can see below there are more tv show in Netflix in 2019
+
+```{r}
+
+moviesandtvshows <- netflixraw %>%
+  filter(release_year >= 1980 & release_year < 2020) %>%
+  group_by(type, release_year) %>%
+  summarise(count = n()) %>%
+  arrange(desc(release_year)) %>%
+  ungroup()
+moviesandtvshows
+
+  ggplot(moviesandtvshows)+geom_line(aes(x = moviesandtvshows$release_year, y = moviesandtvshows$count, color=as.character(type)))
+
+```
+
+Here is the top 20 artist that love to play in Netflix.
+
+```{r}
+
+
+netflixartists<-netflix %>% 
+    mutate(cast = strsplit(as.character(cast), ", ")) %>% 
+    unnest(cast)
+
+netflixartists1<-netflixartists %>% group_by(cast) %>% summarise(numberofplay = n())
+ 
+netflixartists1 %>% top_n(20, numberofplay)
+
+```
